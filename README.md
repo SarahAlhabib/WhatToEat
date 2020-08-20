@@ -18,7 +18,7 @@ clone with https
 6. if ypu want to save this recipe, click `save` button wich appear pn the right to of the detail page, or click back to dismiss<br/>
 7. you can use the tab bar on the bottom, to switch between the `search view` and `saved recipes list`<br/> 
 <img src="/assets/whatToEat3.png" alt="drawing" width="300"/>
-8. the saved recipes will be stored permanently and you can open it without enternet connection<\br>
+8. the saved recipes will be stored permanently and you can open it without enternet connection<br/>
 9. if you want to delete a saved recipe, click `edit` button that appear on the right top of the `saved recipes list` page<br/> 
 
 <img src="/assets/whatToEat15.png" alt="drawing" width="300"/>
