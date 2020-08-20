@@ -8,15 +8,27 @@
 
 import Foundation
 
-struct RecipeByIngredients {
+struct RecipeByIngredients: Decodable {
     let id: Int
     let image: String
     let likes: Int
     let missedIngredientCount: Int
-    let missedIngredients: [MissedIngredients]
+    let missedIngredients: [Ingredients]
+    let title: String
+    let unusedIngredients: [Ingredients]
+    let usedIngredientCount: Int
+    let usedIngredients: [Ingredients]
 }
 
-struct MissedIngredients {
+struct Ingredients: Decodable {
     let aisle: String
-    
+    let amount: Float
+    let id: Int
+    let image: String
+    let meta: [String]
+    let original: String
+    let originalName: String
+    let unit: String
+    let unitLong: String
+    let unitShort: String
 }
