@@ -1,7 +1,7 @@
 # WhatToEat
 iOS app to help users find recipe according to the available ingredients
 
-## Instalation
+## Installation
 clone with https
 `https://github.com/SarahAlhabib/WhatToEat.git`
 
