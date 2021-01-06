@@ -28,6 +28,13 @@ class SavedRecipesViewController: UIViewController,UITableViewDataSource, UITabl
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        fetchRecipes()
+        tableView.reloadData()
+    }
+    
     func fetchRecipes(){
         let fetchRequest:NSFetchRequest<Recipe>=Recipe.fetchRequest()
         do{
